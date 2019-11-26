@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F536D4E2-7E6F-BB40-F6EB-7C64A65B74DF}</ProjectGuid>
+    <ProjectGuid>{5678A4AA-DBCD-75EE-1393-A89052837195}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,20 +54,48 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Controller.cs" />
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/caicai/MyFirstGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+     <Compile Include="Assets\CustomGrabber.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\BlockPuzzleController.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\buttonTestScript.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\CameraRotate.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\ErrorDemo.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\EscExit.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\HapticMouse.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\MetersDemo.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\TextureDemoScript.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticDemos\DemoScripts\VibrationDemoScript.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticScripts\HapticEffect.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticScripts\HapticFitToCamera.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticScripts\HapticGrabber.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticScripts\HapticPlugin.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticScripts\HapticPluginSafetyScript.cs" />
+     <Compile Include="Assets\OpenHaptics\HapticScripts\HapticSurface.cs" />
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/caicai/MyFirstGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/caicai/MyFirstGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.multiplayer-weaver.Editor">
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/caicai/MyFirstGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/caicai/MyFirstGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>E:/unity/2018.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -271,13 +299,13 @@
  <HintPath>E:/unity/2018.4.13f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/caicai/MyFirstGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/caicai/MyFirstGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/caicai/MyFirstGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>F:/ensf545/MyFirstGame/ENSF545Project/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>E:/unity/2018.4.13f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
